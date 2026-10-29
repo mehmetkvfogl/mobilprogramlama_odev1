@@ -1,0 +1,50 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="75dp"
+    android:height="100dp"
+    android:viewportWidth="75"
+    android:viewportHeight="100">
+    <!-- Arka plan: Koyu yeşil bitki dokusu -->
+    <path
+        android:fillColor="#1B3A27"
+        android:pathData="M0,0h75v100h-75z" />
+    <!-- Eğreltiotu / yaprak dalları -->
+    <path
+        android:fillColor="#2D5A3A"
+        android:pathData="M15,0 Q25,35 18,70 Q15,85 10,100"
+        android:strokeColor="#2D5A3A"
+        android:strokeWidth="1.5" />
+    <path
+        android:fillColor="#3D7E50"
+        android:pathData="M18,15 Q35,18 45,12 Q32,22 18,20" />
+    <path
+        android:fillColor="#4E9A65"
+        android:pathData="M19,25 Q42,28 55,20 Q38,34 19,30" />
+    <path
+        android:fillColor="#5EB37A"
+        android:pathData="M18,35 Q45,39 60,30 Q40,46 18,40" />
+    <path
+        android:fillColor="#6EC78E"
+        android:pathData="M17,47 Q48,51 65,42 Q42,59 17,52" />
+    <path
+        android:fillColor="#7FDCA0"
+        android:pathData="M16,58 Q46,62 60,55 Q38,68 16,62" />
+    <path
+        android:fillColor="#8FEAA8"
+        android:pathData="M14,68 Q38,72 50,66 Q32,77 14,72" />
+    <path
+        android:fillColor="#A5F2BA"
+        android:pathData="M12,78 Q30,82 40,77 Q25,86 12,82" />
+    <!-- Sol yaprakçıklar -->
+    <path
+        android:fillColor="#438656"
+        android:pathData="M18,20 Q5,18 0,14 Q8,24 18,22" />
+    <path
+        android:fillColor="#529E69"
+        android:pathData="M18,30 Q3,29 0,23 Q6,35 18,33" />
+    <path
+        android:fillColor="#62B67C"
+        android:pathData="M17,42 Q2,41 0,35 Q5,48 17,45" />
+    <path
+        android:fillColor="#76CE93"
+        android:pathData="M16,54 Q3,53 0,48 Q4,60 16,57" />
+</vector>

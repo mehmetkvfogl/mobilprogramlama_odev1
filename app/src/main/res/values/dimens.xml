@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Kart Ölçüleri -->
+    <dimen name="card_margin_horizontal">16dp</dimen>
+    <dimen name="card_margin_vertical">8dp</dimen>
+    <dimen name="card_padding_all">20dp</dimen>
+    <dimen name="card_images_padding">12dp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+
+    <!-- Resim Ölçüleri -->
+    <dimen name="image_height">130dp</dimen>
+    <dimen name="image_margin_end">8dp</dimen>
+
+    <!-- Giriş Alanı (EditText) Ölçüleri -->
+    <dimen name="input_margin_bottom">16dp</dimen>
+    <dimen name="input_padding_vertical">8dp</dimen>
+    <dimen name="text_size_input">16sp</dimen>
+
+    <!-- Buton Ölçüleri -->
+    <dimen name="button_height">46dp</dimen>
+    <dimen name="button_corner_radius">24dp</dimen>
+    <dimen name="button_margin_top">20dp</dimen>
+    <dimen name="text_size_button">15sp</dimen>
+
+    <!-- Şifremi Unuttum Ölçüleri -->
+    <dimen name="forgot_password_margin_top">16dp</dimen>
+    <dimen name="text_size_forgot_password">14sp</dimen>
+</resources>

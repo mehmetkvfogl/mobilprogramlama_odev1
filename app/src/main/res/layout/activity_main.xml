@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_background"
+    tools:context=".MainActivity">
+
+    <!-- 1. BLOK: Yanyana Resimler Bloğu -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/group_images"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/card_margin_horizontal"
+        android:layout_marginTop="@dimen/card_margin_vertical"
+        android:layout_marginEnd="@dimen/card_margin_horizontal"
+        app:cardBackgroundColor="@color/card_background"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="@dimen/card_elevation"
+        app:layout_constraintBottom_toTopOf="@id/group_register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread_inside">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/card_images_padding">
+
+            <ImageView
+                android:id="@+id/iv_plant_1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/image_height"
+                android:layout_marginEnd="@dimen/image_margin_end"
+                android:layout_weight="1"
+                android:contentDescription="@string/cd_plant_1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_plant_1" />
+
+            <ImageView
+                android:id="@+id/iv_plant_2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/image_height"
+                android:layout_marginEnd="@dimen/image_margin_end"
+                android:layout_weight="1"
+                android:contentDescription="@string/cd_plant_2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_plant_2" />
+
+            <ImageView
+                android:id="@+id/iv_plant_3"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/image_height"
+                android:layout_marginEnd="@dimen/image_margin_end"
+                android:layout_weight="1"
+                android:contentDescription="@string/cd_plant_3"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_plant_3" />
+
+            <ImageView
+                android:id="@+id/iv_plant_4"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/image_height"
+                android:layout_weight="1"
+                android:contentDescription="@string/cd_plant_4"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_plant_4" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- 2. BLOK: Kullanıcı Kayıt Bloğu -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/group_register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/card_margin_horizontal"
+        android:layout_marginTop="@dimen/card_margin_vertical"
+        android:layout_marginEnd="@dimen/card_margin_horizontal"
+        android:layout_marginBottom="@dimen/card_margin_vertical"
+        app:cardBackgroundColor="@color/card_background"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="@dimen/card_elevation"
+        app:layout_constraintBottom_toTopOf="@id/group_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/group_images">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/card_padding_all">
+
+            <EditText
+                android:id="@+id/et_name_surname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/input_margin_bottom"
+                android:hint="@string/hint_name_surname"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName|textCapWords"
+                android:paddingVertical="@dimen/input_padding_vertical"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_hint"
+                android:textSize="@dimen/text_size_input" />
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/input_margin_bottom"
+                android:hint="@string/hint_email"
+                android:importantForAutofill="no"
+                android:inputType="textEmailAddress"
+                android:paddingVertical="@dimen/input_padding_vertical"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_hint"
+                android:textSize="@dimen/text_size_input" />
+
+            <EditText
+                android:id="@+id/et_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_age"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:paddingVertical="@dimen/input_padding_vertical"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_hint"
+                android:textSize="@dimen/text_size_input" />
+
+            <android.widget.Button
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginTop="@dimen/button_margin_top"
+                android:background="@drawable/bg_btn_register"
+                android:text="@string/btn_register"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_register_text"
+                android:textSize="@dimen/text_size_button"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- 3. BLOK: Kullanıcı Giriş Bloğu -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/group_login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/card_margin_horizontal"
+        android:layout_marginEnd="@dimen/card_margin_horizontal"
+        android:layout_marginBottom="@dimen/card_margin_vertical"
+        app:cardBackgroundColor="@color/card_background"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="@dimen/card_elevation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/group_register">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/card_padding_all">
+
+            <EditText
+                android:id="@+id/et_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/input_margin_bottom"
+                android:hint="@string/hint_username"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:paddingVertical="@dimen/input_padding_vertical"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_hint"
+                android:textSize="@dimen/text_size_input" />
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_password"
+                android:importantForAutofill="no"
+                android:inputType="textPassword"
+                android:paddingVertical="@dimen/input_padding_vertical"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_hint"
+                android:textSize="@dimen/text_size_input" />
+
+            <android.widget.Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginTop="@dimen/button_margin_top"
+                android:background="@drawable/bg_btn_login"
+                android:text="@string/btn_login"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_login_text"
+                android:textSize="@dimen/text_size_button"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_forgot_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/forgot_password_margin_top"
+                android:text="@string/btn_forgot_password"
+                android:textColor="@color/btn_forgot_password_text"
+                android:textSize="@dimen/text_size_forgot_password"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

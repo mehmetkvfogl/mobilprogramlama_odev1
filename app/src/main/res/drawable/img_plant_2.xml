@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="75dp"
+    android:height="100dp"
+    android:viewportWidth="75"
+    android:viewportHeight="100">
+    <!-- Arka plan yeşil -->
+    <path
+        android:fillColor="#3E6328"
+        android:pathData="M0,0h75v100h-75z" />
+    <!-- Sap ve gövde -->
+    <path
+        android:fillColor="#588C35"
+        android:pathData="M35,100 Q40,65 36,45 L39,45 Q43,65 38,100 Z" />
+    <path
+        android:fillColor="#68A53D"
+        android:pathData="M15,95 Q30,85 36,75 L38,78 Q30,89 17,98 Z" />
+    <!-- Arka taç yapraklar -->
+    <path
+        android:fillColor="#D8E2D6"
+        android:pathData="M38,45 Q20,30 15,18 Q28,26 38,42 Z" />
+    <path
+        android:fillColor="#E3EAE1"
+        android:pathData="M38,45 Q55,28 62,17 Q48,27 38,43 Z" />
+    <!-- Ana beyaz taç yapraklar -->
+    <path
+        android:fillColor="#FAFAFA"
+        android:pathData="M37,47 Q25,38 20,22 Q33,32 37,45 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,47 Q37,25 36,12 Q42,25 39,47 Z" />
+    <path
+        android:fillColor="#F0F5EE"
+        android:pathData="M39,47 Q52,36 58,22 Q46,33 39,45 Z" />
+    <!-- Çiçek göbeği / sarı organlar -->
+    <path
+        android:fillColor="#FDD835"
+        android:pathData="M37,35 L38,31 L39,35 Z" />
+</vector>

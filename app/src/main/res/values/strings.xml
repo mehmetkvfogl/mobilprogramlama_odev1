@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Bitki Kayıt</string>
+
+    <!-- Resim Açıklamaları -->
+    <string name="cd_plant_1">Bitki Görseli 1</string>
+    <string name="cd_plant_2">Bitki Görseli 2</string>
+    <string name="cd_plant_3">Bitki Görseli 3</string>
+    <string name="cd_plant_4">Bitki Görseli 4</string>
+
+    <!-- Kullanıcı Kayıt Bloğu -->
+    <string name="hint_name_surname">Ad Soyad</string>
+    <string name="hint_email">E-posta Adresi</string>
+    <string name="hint_age">Yaş</string>
+    <string name="btn_register">Kayıt Ol</string>
+
+    <!-- Kullanıcı Giriş Bloğu -->
+    <string name="hint_username">Kullanıcı Adı</string>
+    <string name="hint_password">Şifre</string>
+    <string name="btn_login">Giriş Yap</string>
+    <string name="btn_forgot_password">ŞİFREMİ UNUTTUM?</string>
+</resources>

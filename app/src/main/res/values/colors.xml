@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ekran ve Kart Arka Plan Renkleri -->
+    <color name="screen_background">#F4F5F7</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- Yazı ve Giriş Alanı Renkleri -->
+    <color name="text_primary">#2B2B2B</color>
+    <color name="text_hint">#7E8085</color>
+    <color name="edit_text_line">#7E8085</color>
+
+    <!-- Kayıt Buton Renkleri (Koyu Yeşil / Teal) -->
+    <color name="btn_register_bg">#006D5B</color>
+    <color name="btn_register_text">#FFFFFF</color>
+
+    <!-- Giriş Buton ve Şifremi Unuttum Renkleri (Mavi) -->
+    <color name="btn_login_bg">#1976D2</color>
+    <color name="btn_login_text">#FFFFFF</color>
+    <color name="btn_forgot_password_text">#1976D2</color>
+
+    <!-- Genel Renkler -->
+    <color name="btn_ripple">#33FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

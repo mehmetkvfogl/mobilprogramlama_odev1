@@ -1,0 +1,47 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="75dp"
+    android:height="100dp"
+    android:viewportWidth="75"
+    android:viewportHeight="100">
+    <!-- Sıcak turuncu / kehribar arka plan -->
+    <path
+        android:fillColor="#A05208"
+        android:pathData="M0,0h75v100h-75z" />
+    <!-- Çiçeğin dış katman yaprakları -->
+    <path
+        android:fillColor="#BF6B0C"
+        android:pathData="M37,50m-36,0a36,36 0,1 1,72 0a36,36 0,1 1,-72 0" />
+    <!-- Orta taç yapraklar -->
+    <path
+        android:fillColor="#D97E14"
+        android:pathData="M37,50m-28,0a28,28 0,1 1,56 0a28,28 0,1 1,-56 0" />
+    <!-- Taç yaprak detayları -->
+    <path
+        android:fillColor="#E8911C"
+        android:pathData="M37,18 Q40,32 37,42 Q34,32 37,18 Z" />
+    <path
+        android:fillColor="#E8911C"
+        android:pathData="M15,35 Q28,40 37,45 Q26,45 15,35 Z" />
+    <path
+        android:fillColor="#E8911C"
+        android:pathData="M59,35 Q48,45 37,45 Q46,40 59,35 Z" />
+    <path
+        android:fillColor="#E8911C"
+        android:pathData="M18,65 Q28,55 37,50 Q25,58 18,65 Z" />
+    <path
+        android:fillColor="#E8911C"
+        android:pathData="M56,65 Q49,58 37,50 Q46,55 56,65 Z" />
+    <path
+        android:fillColor="#E8911C"
+        android:pathData="M37,82 Q34,68 37,58 Q40,68 37,82 Z" />
+    <!-- İç halka taç yaprakları -->
+    <path
+        android:fillColor="#F5A623"
+        android:pathData="M37,50m-18,0a18,18 0,1 1,36 0a18,18 0,1 1,-36 0" />
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M37,50m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M37,50m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+</vector>
